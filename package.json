@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "rollup -c rollup.config.js -w",
-    "build:umd": "cross-env NODE_ENV=development rollup -c rollup.config.js -o lib/fun_all.js",
-    "build:umd:min": "cross-env NODE_ENV=production rollup -c rollup.config.js -o lib/fun_all.min.js"
+    "build:umd": "cross-env NODE_ENV=development rollup -c rollup.config.js -o lib/index.js",
+    "build:umd:min": "cross-env NODE_ENV=production rollup -c rollup.config.js -o lib/index.min.js"
   },
   "repository": {
     "type": "git",
