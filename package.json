@@ -2,7 +2,10 @@
   "name": "fun-all",
   "version": "0.1.0",
   "description": "函数式编程方法使用",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "dev": "rollup -c rollup.config.js -w",
     "build:umd": "cross-env NODE_ENV=development rollup -c rollup.config.js -o lib/index.js",
