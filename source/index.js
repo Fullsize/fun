@@ -1,8 +1,8 @@
 /*
  * @Date: 2021-12-10 18:23:25
  * @LastEditors: Fullsize
- * @LastEditTime: 2021-12-10 18:23:26
+ * @LastEditTime: 2021-12-13 15:04:33
  * @FilePath: /fun/source/index.js
  * @Author: Fullsize
  */
-export { default as F } from './F.js';
+export { default as add } from './add.js';
